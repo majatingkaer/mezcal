@@ -1,13 +1,54 @@
-body {
-    height: 200vh;
+/**************************************************/
+/* Small devices (landscape phones, 576px and up) */
+/**************************************************/
+@media (min-width: 576px) {}
+
+/* END "sm-" 576px and up */
+
+
+/**************************************************/
+/* // Medium devices (tablets, 768px and up) */
+/**************************************************/
+@media (min-width: 768px) {}
+
+/* END "md-" 768px and up */
+
+
+/**************************************************/
+/* // Large devices (desktops, 992px and up) */
+/**************************************************/
+@media (min-width: 992px) {
+
+  /* END "lg-" 992px and up */
 }
 
-.sticky-top {
-    top: 0px;
+/**************************************************/
+/* // Extra large devices (large desktops, 1200px and up) */
+/**************************************************/
+@media (min-width: 1200px) {
+
+  /* END "xl-" 1200px and up */
 }
+
+/**************************************************/
+/* // Extra Extra large (XXL) devices (XXL screens, 1400px and up) */
+/**************************************************/
+@media (min-width: 1400px) {
+
+  /* END "xxl-" 1400px and up */
+}
+
+
+
+
+body {
+    height: 400vh;
+}
+
 
 h1 {
     font-family: charcuterie deco;
+    font-size: 6rem;
 }
 
 .nav-item    {
@@ -19,4 +60,9 @@ h1 {
 .splash_gif {
     width: 100%;
     height: auto;
+}
+
+.splash_tekst {
+    margin-top: 30vh;
+    margin-left: 5vw;
 }
