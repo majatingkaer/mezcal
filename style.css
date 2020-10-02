@@ -1,0 +1,22 @@
+body {
+    height: 200vh;
+}
+
+.sticky-top {
+    top: 0px;
+}
+
+h1 {
+    font-family: charcuterie deco;
+}
+
+.nav-item    {
+    font-family: boucherie-flared, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.splash_gif {
+    width: 100%;
+    height: auto;
+}
