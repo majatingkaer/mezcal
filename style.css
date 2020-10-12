@@ -38,7 +38,17 @@
   /* END "xxl-" 1400px and up */
 }
 
-
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+"dark_blue": $blue-800
+);
 
 
 body {
@@ -71,9 +81,8 @@ button {
     height: auto;
 }
 
-.splash_tekst {
-    margin-top: 30vh;
-    margin-left: 5vw;
-}
+
+
+
 
 
